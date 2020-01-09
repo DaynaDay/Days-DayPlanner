@@ -35,21 +35,9 @@ textarea{
   height:80px;
   background-color: aqua; 
   border-top: 10px solid rgb(43, 45, 165);
-  padding: 50px 40px;
   
- } 
-
- .row {
-  padding: 50px 90px;
-  margin: 10px 15px; 
-  background-color: rgb(84, 163, 236);
- } 
-
- .col-md-2 {
   
-  background-color: beige;
-  float: left;
- }
+}
 
 .hour {
   background-color: #ffffff;
@@ -59,17 +47,23 @@ textarea{
 
 .past {
   background-color: #d3d3d3;
-  color: white;
+  color: rgb(206, 76, 76);
+  padding: 50px 90px;
+  margin: 10px 15px; 
 }
 
 .present {
   background-color: #ff6961;
-  color: white;
+  color: rgb(223, 83, 83);
+  padding: 50px 90px;
+  margin: 10px 15px; 
 }
 
 .future {
   background-color: #77dd77;
-  color: white;
+  color: rgb(216, 38, 38);
+  padding: 50px 90px;
+  margin: 10px 15px; 
 }
 
 .saveBtn {

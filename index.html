@@ -47,7 +47,7 @@
 
 
       <div class="rows">
-
+<div class= "past">
         <div class="col-md-2">9:00 am</div>
         <div class="col-md-9">Text</div>
         <div class="col-md-1">Save Me</div>
@@ -61,13 +61,14 @@
         <div class="col-md-2">11:00 am</div>
         <div class="col-md-9">Text</div>
         <div class="col-md-1">Save Me</div>
-
-
+</div>
+<div class="present">
         <div class="col-md-2">12:00 pm</div>
         <div class="col-md-9">Text</div>
         <div class="col-md-1">Save Me</div>
+        </div>
 
-
+<div class="future">
 
         <div class="col-md-2">1:00 pm</div>
         <div class="col-md-9">Text</div>
@@ -96,22 +97,25 @@
         <div class="col-md-2">5:00 pm</div>
         <div class="col-md-9">Text</div>
         <div class="col-md-1">Save Me</div>
-
+</div>
 
       </div>
 
-      function addText() {
-      document.getElementById("").innerHTML = "<input type='text' value=''>"
-    }
+   
+      $("#col-md-9").text("")
 
+    $("").click(function() {
+      $("#col-md-1")
+      
+  var storage = $(".card-1").val();
+  if (localStorage.getItem("local", storage)) {
+    $('.card-1').fadeOut();
 
-    <div id="saveBtn">Save Me</div>
-
-    $("#saveBtn).event(function) {
-    localStorage.setItem()
+    localStorage.setItem("local", storage);
   }
+});
 
-
+    
 
 
 
