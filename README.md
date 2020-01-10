@@ -1,1 +1,3 @@
 # Days-DayPlanner
+
+In this project I was tasked with creating a Day Planner that allowed the user to input text and save it to local storage. Moment.js was also utilized to interact with the browser to be responsive to times and to display on the planner at what point in the day they were at. Anything before the current time was labelled in the past and as such reflected a grey color scheme. For the present or current time, the user would see the column turn a reddish color. For the future times the user would see green. I believe the header would also reflect current the current date.
