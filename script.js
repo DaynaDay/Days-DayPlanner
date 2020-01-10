@@ -1,40 +1,21 @@
 
-function addText(){
-
-}
-
-
-    $("").click(function() {
-      $("#col-md-1")
-
-
-
-
-
-
-
-
-
-
-
-
 
 function displayDate() {
-  var nowMoment = moment();
-  var date = new Date;
-
+  var $nowMoment = $moment();
+  var $date = $newDate;
   $("#currentDay").html.moment().format('YYYY MM DD');
-
+$("newDate").append("currentDay");
 }
 
-$
       
-  var storage = $(".card-1").val();
-  if (localStorage.getItem("local", storage)) {
-    $('.card-1').fadeOut();
+function addText (){
 
-    localStorage.setItem("local", storage);
-  }
-});
+$("textarea").text("");
+$("textarea").empty;
+localStorage.setItem("textarea");
+$(text).append("textarea");
+}
+
+
 
 
